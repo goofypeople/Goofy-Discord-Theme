@@ -1,44 +1,18 @@
-/* hide nitro boost banner */
-div.container-2giAcK[tabindex="0"], div.container-2giAcK[tabindex="0"] + div {
-    display: none;
+/* Add custom home icon */
+
+.homeIcon-r0w4ny {
+  display: none;
 }
 
-/* Hide Nitro Tab in Friends Menu */
-.channel-1Shao0.container-32HW5s[aria-posinset="2"] {
-    display: none;
+.tutorialContainer-1pL9QS .wrapper-3kah-n .childWrapper-1j_1ub {
+  background-color: transparent;
 }
 
-/* Hide Gift Button in chat box */
-button[aria-label="Send a gift"] {
-    display: none;
-}
-
-/* Slidy Members */
-[class*="membersWrap-"] [class*="membersGroup-"] {
-    margin-right: auto;
-    width: 57px;
-    text-overflow: clip;
-    direction: rtl;
-    word-spacing: 1000px;
-}
-[class*="membersWrap-"]:hover [class*="membersGroup-"],
-[class*="membersWrap-"]:focus-within [class*="membersGroup-"] {
-    width: 100%;
-    margin: 0;
-    direction: ltr;
-    word-spacing: unset;
-    text-overflow: ellipsis;
-}
-.membersWrap-3NUR2t{
-  min-width: 0 !important; 
-}
-.members-3WRCEx {
-  transition: 250ms ease all;
-  width: 64px !important; 
-}
-.members-3WRCEx:hover {
-  width: 64px !important;
-}
-.membersWrap-3NUR2t:hover .members-3WRCEx{
-  width: 245px !important;
+.tutorialContainer-1pL9QS .wrapper-3kah-n .childWrapper-1j_1ub:before {
+  position: absolute;
+  content: " ";
+  width: 45px; 
+  height: 45px; 
+  background-image: url('https://avatars.githubusercontent.com/u/148661918?s=96&v=4');
+  background-size: contain;
 }
