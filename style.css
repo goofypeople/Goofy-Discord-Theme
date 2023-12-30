@@ -1,18 +1,36 @@
-/* Add custom home icon */
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
 
-.homeIcon-r0w4ny {
-  display: none;
+:root {
+  --background: url('https://wallpapers.com/images/hd/cubed-squares-black-3d-bqeujlzpj3p2e505.jpg');
+  --backgroundsize: contain;
+  --backgroundposition: center;
+  --backgroundblur: 0px;
+  --popout: url('https://t3.ftcdn.net/jpg/02/83/54/94/360_F_283549444_QJP74KROpbcvsBvohYSSJxVfFIcqr5O8.jpg');
+  --popoutsize: contain;
+  --backgroundposition: center;
+  --popoutblur: 0px;
+  --transparencycolor: 25,25,25;
+  --accentcolor: 0,15,101;
+  --backdrop: rgb(25,25,25,1);
+  --textshadow: rgb(3,169,244,0.5);
+  --transparencyalpha: 0;
+  --messagetransparency: 0.5;
+  --guildchanneltransparency: 0.3;
+  --chatinputtransparency: 0;
+  --memberlisttransparency: 0.3;
+  --font: Trebuchet MS;
+  --textbrightest: 255,255,255;
+  --textbrighter: 222,222,222;
+  --textbright: 200,200,200;
+  --textdark: 160,160,160;
+  --textdarker: 125,125,125;
+  --textdarkest: 90,90,90;
+  --settingsicons: 1;
+  --backdropsize: var(--background-size);
+  --backdropblur: 0px;
+  --version1_0_5: none;
 }
 
-.tutorialContainer-1pL9QS .wrapper-3kah-n .childWrapper-1j_1ub {
-  background-color: transparent;
-}
+/* Any custom CSS below here */
 
-.tutorialContainer-1pL9QS .wrapper-3kah-n .childWrapper-1j_1ub:before {
-  position: absolute;
-  content: " ";
-  width: 45px; 
-  height: 45px; 
-  background-image: url('https://avatars.githubusercontent.com/u/148661918?s=96&v=4');
-  background-size: contain;
-}
+
